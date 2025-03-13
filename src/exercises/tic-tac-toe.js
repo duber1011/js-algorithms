@@ -97,4 +97,4 @@ console.log(
   ])
 ); // "Pending"
 
-module.exports = { ticTacToe };
+module.exports = ticTacToe;

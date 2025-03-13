@@ -4,7 +4,9 @@
   "description": "some important js exercises are resolved in this project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
     "start": "node src/index.js",
     "dev": "nodemon src/index.js"
   },
@@ -15,6 +17,10 @@
   "author": "Duber Orrvi",
   "license": "ISC",
   "devDependencies": {
-    "nodemon": "^3.1.9"
+    "@types/jest": "^29.5.14",
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.9",
+    "supertest": "^7.0.0",
+    "ts-jest": "^29.2.6"
   }
 }

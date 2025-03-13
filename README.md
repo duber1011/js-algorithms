@@ -8,6 +8,7 @@ This repository contains solutions to some typical and important algorithm exerc
 - [Project Structure](#project-structure)
 - [Getting Started](#getting-started)
 - [Usage](#usage)
+- [Running Tests](#running-tests)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -25,6 +26,9 @@ js-algorithms/
 │   ├── exercises/
 │   │   └── tic-tac-toe.js
 │   └── index.js
+├── tests/
+│   ├── exercises/
+│   │   └── tic-tac-toe.test.js
 ```
 
 - `package.json`: Contains the project metadata and dependencies.
@@ -33,6 +37,9 @@ js-algorithms/
   - `exercises/`: Directory containing individual algorithm exercise solutions.
     - `tic-tac-toe.js`: Solution for the Tic-Tac-Toe game winner determination.
   - `index.js`: Entry point for the project.
+- `tests/`: Directory containing the test files.
+  - `exercises/`: Directory containing individual test files.
+    - `tic-tac-toe.test.js`: Unit tests for the Tic-Tac-Toe solution.
 
 ## Getting Started
 
@@ -44,74 +51,6 @@ To get started with this project, follow these steps:
    git clone https://github.com/duber1011/js-algorithms.git
    cd js-algorithms
    ```
-
-2. **Install dependencies:**
-
-   ```sh
-   npm install
-   ```
-
-3. **Run the project:**
-   ```sh
-   npm start
-   ```
-
-Sure, here is the updated
-
-README.md
-
-file with the changes:
-
-```markdown
-# JS Algorithms
-
-This repository contains solutions to some typical and important algorithm exercises in JavaScript. The objective of this project is to solve these exercises using clean code and good practices.
-
-## Table of Contents
-
-- [Introduction](#introduction)
-- [Project Structure](#project-structure)
-- [Getting Started](#getting-started)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-
-## Introduction
-
-The goal of this project is to provide well-documented and efficient solutions to common algorithmic problems. Each solution is implemented with a focus on readability, maintainability, and performance.
-
-## Project Structure
-```
-
-js-algorithms/
-├── package.json
-├──
-
-README.md
-
-├── src/
-│ ├── exercises/
-│ │ └── tic-tac-toe.js
-│ └── index.js
-
-````
-
-- `package.json`: Contains the project metadata and dependencies.
-- `README.md`: This file, providing an overview of the project.
-- `src/`: Directory containing the source code.
-  - `exercises/`: Directory containing individual algorithm exercise solutions.
-    - `tic-tac-toe.js`: Solution for the Tic-Tac-Toe game winner determination.
-  - `index.js`: Entry point for the project.
-
-## Getting Started
-
-To get started with this project, follow these steps:
-
-1. **Clone the repository:**
-   ```sh
-   git clone https://github.com/duber1011/js-algorithms.git
-   cd js-algorithms
-````
 
 2. **Install dependencies:**
 
@@ -134,11 +73,32 @@ npm start
 
 This will run the `src/index.js` file, which imports and executes the Tic-Tac-Toe solution with example test cases.
 
-Also you can run the project in dev mode by executing:
+Also, you can run the project in development mode by executing:
 
 ```sh
 npm run dev
 ```
+
+## Running Tests
+
+To run the unit tests for this project, you can use the following commands:
+
+1. **Run all tests:**
+
+   ```sh
+   npm test
+   ```
+
+2. **Run tests in watch mode:**
+
+   ```sh
+   npm run test:watch
+   ```
+
+3. **Run tests with coverage:**
+   ```sh
+   npm run test:coverage
+   ```
 
 ## Contributing
 
@@ -158,6 +118,8 @@ This project is licensed under the ISC License. See the LICENSE file for details
 
 ```
 
-This README provides a clear and professional overview of your project, including its structure, usage, and contribution guidelines.
-This README provides a clear and professional overview of your project, including its structure, usage, and contribution guidelines.
+This update includes a new section "Running Tests" with commands to run the unit tests.
+This update includes a new section "Running Tests" with commands to run the unit tests.
+
+Similar code found with 2 license types
 ```
