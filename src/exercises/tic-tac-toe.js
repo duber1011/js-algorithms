@@ -26,7 +26,6 @@ function ticTacToe(moves) {
     const [row, col] = moves[i];
     board[row][col] = i % 2 === 0 ? 'X' : 'O'; // A -> "X", B -> "O"
   }
-  console.log('board ==> ', board);
 
   // Step 3: Check for a winner
   const checkWinner = (player) => {

@@ -134,6 +134,12 @@ npm start
 
 This will run the `src/index.js` file, which imports and executes the Tic-Tac-Toe solution with example test cases.
 
+Also you can run the project in dev mode by executing:
+
+```sh
+npm run dev
+```
+
 ## Contributing
 
 Contributions are welcome! If you have any algorithm exercises you'd like to add or improvements to existing solutions, please follow these steps:
