@@ -1,5 +1,3 @@
-//const ticTacToe = require('../../src/exercises/tic-tac-toe');
-
 describe('Tic Tac Toe', () => {
   const ticTacToe = require('../../src/exercises/tic-tac-toe');
 
