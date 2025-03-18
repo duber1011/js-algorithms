@@ -13,7 +13,3 @@ describe('Min Size Subarray Sum', () => {
     expect(minSizeSubarraySum([1, 2, 3, 4, 5], 16)).toEqual([0]);
   });
 });
-
-// console.log(minSubarraySum([2, 3, 1, 2, 4, 3], 7)); // [4,3]
-// console.log(minSubarraySum([2, 6, 5, 6, 7, 9, 10], 22)); // [5,7,10]
-// console.log(minSubarraySum([1, 2, 3, 4, 5], 16)); // [0]
