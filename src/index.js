@@ -4,3 +4,4 @@ const { MinStack } = require('./exercises/min-stack');
 const { multiply } = require('./exercises/recursivity-without-multiply');
 const { removeDuplicates } = require('./exercises/remove-duplicates');
 const { ticTacToe } = require('./exercises/tic-tac-toe');
+const { setMatrixZeroes } = require('./exercises/set-matrix-zeroes');
