@@ -1,8 +1,10 @@
 /*
-Write a function that takes as its input a string and returns an array of arrays as shown below sorted in descending order by frequency and then by ascending order by character.
+Write a function that takes as its input a string and returns an array of arrays as shown below sorted in descending order by frequency 
+and then by ascending order by character.
 The function should:
 
-Take a string as input Count the frequency of each character in the string Return an array of sub-arrays where each subarray contains the character and its frequency Sort the array in descending order by frequency and ascending order by character
+Take a string as input Count the frequency of each character in the string Return an array of sub-arrays where each subarray contains 
+the character and its frequency Sort the array in descending order by frequency and ascending order by character
 
 Example 1:
 characterFrequency('mississippi') === 
