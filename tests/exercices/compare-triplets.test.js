@@ -24,4 +24,10 @@ describe('Compare Triplets', () => {
   test('should return [2, 1] for [17, 28, 30] and [99, 16, 8]', () => {
     expect(compareTriplets([17, 28, 30], [99, 16, 8])).toEqual([2, 1]);
   });
+
+  test('should throw an error for arrays of different lengths', () => {
+    expect(() => compareTriplets([1, 2], [1, 2, 3])).toThrow(
+      'The array must have the same length!'
+    );
+  });
 });
