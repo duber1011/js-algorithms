@@ -31,4 +31,17 @@ describe('calculateGradeDistribution', () => {
     const expectedOutput = { A: 0, B: 0, C: 0, D: 0, F: 0 };
     expect(calculateGradeDistribution(students)).toEqual(expectedOutput);
   });
+
+  it('should return the correct grade distribution for a given array of students', () => {
+    const students = [
+      { name: 'Edd', grade: 83 },
+      { name: 'Ritha', grade: 51 },
+      { name: 'Joe', grade: 72 },
+      { name: 'Julia', grade: 35 },
+      { name: 'Ramses', grade: 90 },
+    ];
+
+    const expectedOutput = { A: 1, B: 1, C: 1, D: 0, F: 2 };
+    expect(calculateGradeDistribution(students)).toEqual(expectedOutput);
+  });
 });
